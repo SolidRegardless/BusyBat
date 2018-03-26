@@ -1,6 +1,8 @@
 # BusyBat
 
-Provides standard input, parameter-based or file-based regular expression matching, Json query, XML XPath query and console foreground/background support in an all-in-one executable similar in nature to busybox.
+Provides standard input, parameter-based or file-based regular expression matching, Json query, XML
+XPath query and console foreground/background support in an all-in-one executable similar in nature
+to busybox.
 
 BusyBat.exe [-help] [-fg {foreground colour}] [-bg {bg colour}] [-pr {output}] [-nolf] [-ret] [-rst]
     [-cls] [-rx {expression} {-val input value | -file filepath} [-grp group name]] [-enum

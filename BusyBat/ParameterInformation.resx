@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackgroundParameter" xml:space="preserve">
+    <value>-bg</value>
+  </data>
+  <data name="ForegroundParameter" xml:space="preserve">
+    <value>-fg</value>
+  </data>
+  <data name="HelpParameter" xml:space="preserve">
+    <value>-help</value>
+  </data>
+  <data name="PrintParameter" xml:space="preserve">
+    <value>-pr</value>
+  </data>
+  <data name="RetainParameter" xml:space="preserve">
+    <value>-ret</value>
+  </data>
+  <data name="PrintUsageHeaderLine" xml:space="preserve">
+    <value>
+Busy Bat v{0}
+</value>
+  </data>
+  <data name="PrintUsageDescriptionLine" xml:space="preserve">
+    <value>Busy Bat is an all-in-one utility knife that provides extended console support for coloured
+background and/or foreground output.
+</value>
+  </data>
+  <data name="PrintUsageParameterOptions" xml:space="preserve">
+    <value>{0} [-help] [-fg {{foreground colour}}] [-bg {{bg colour}}] [-pr {{output}}] [-nolf] [-ret] [-rst]
+    [-cls] [-rx {{expression}} {{-val input value | -file filepath}} [-grp group name]] [-enum
+    {{root}} {{pattern}}] [-json {{json path}} [-arr]] [-xml {{xpath}} [-fns {{namespace}}]]
+</value>
+  </data>
+  <data name="PrintUsageHelpDescription" xml:space="preserve">
+    <value>  -help : Shows help about Busy Bat.</value>
+  </data>
+  <data name="PrintUsageForegroundDescriptionLine" xml:space="preserve">
+    <value>    -fg : Change the foreground colour to that specified. The colour to change to is any of the
+          standard ConsoleColor enumeration values, e.g. DarkRed, Blue, White, Green, Cyan, etc.</value>
+  </data>
+  <data name="PrintUsageBackgroundDescriptionLine" xml:space="preserve">
+    <value>    -bg : Change the background colour to that specified. The colour to change to is any of the
+          standard ConsoleColor enumeration values as with the foreground colour.</value>
+  </data>
+  <data name="PrintUsageRetainDescriptionLine" xml:space="preserve">
+    <value>   -ret : Retain the colour settings after the application has exited. This will persist any of
+          the colour settings specified.</value>
+  </data>
+  <data name="PrintUsagePrintDescription" xml:space="preserve">
+    <value>    -pr : Print a message as provided using the colour settings specified. If the -ret parameter
+          was not specified, the colour settings are reset back to the colours before the Busy
+          Bat was executed.</value>
+  </data>
+  <data name="ArrayParameter" xml:space="preserve">
+    <value>-arr</value>
+  </data>
+  <data name="ClearConsoleParameter" xml:space="preserve">
+    <value>-cls</value>
+  </data>
+  <data name="EnumParameter" xml:space="preserve">
+    <value>-enum</value>
+  </data>
+  <data name="FileParameter" xml:space="preserve">
+    <value>-file</value>
+  </data>
+  <data name="GroupParameter" xml:space="preserve">
+    <value>-grp</value>
+  </data>
+  <data name="JsonParameter" xml:space="preserve">
+    <value>-json</value>
+  </data>
+  <data name="NoLineFeedParameter" xml:space="preserve">
+    <value>-nolf</value>
+  </data>
+  <data name="PrintUsageClearConsoleDescription" xml:space="preserve">
+    <value>   -cls : Clears the console buffer and display before writing anything to standard output.</value>
+  </data>
+  <data name="PrintUsageEnumDescription" xml:space="preserve">
+    <value>  -enum : Enumerate the indicated folder for files with a filename that matches the specific
+          pattern. When using this option, the root folder and search pattern must be given
+          alongside the parameter, e.g. -enum c:\ *.log</value>
+  </data>
+  <data name="PrintUsageFileDescription" xml:space="preserve">
+    <value>  -file : References a file that should be used for either matching a regular expression (-rx)
+          within or for extracting a Json value (-json) given a Json path expression.</value>
+  </data>
+  <data name="PrintUsageGroupDescription" xml:space="preserve">
+    <value>   -grp : If searching for a regular expression match within a value (-val) or file (-file) either
+          the whole match is returned or by providing this parameter just the matched group
+          value is returned.</value>
+  </data>
+  <data name="PrintUsageJsonDescription" xml:space="preserve">
+    <value>  -json : Extract a Json property using the provided Json path. The source to use for parsing
+          is either taken from the passed in value (-val) or from a file (-file). Alternatively, the
+          data can be piped into the application through standard input. If the -arr parameter
+          is passed on the command line with -json collections are returned on multiple lines.</value>
+  </data>
+  <data name="PrintUsageNoLineFeedDescription" xml:space="preserve">
+    <value>  -nolf : Prints any output from the -pr option without adding a new line.</value>
+  </data>
+  <data name="PrintUsageRegularExpressionDescription" xml:space="preserve">
+    <value>    -rx : Search the given value (-val) or file (-file) for the regular expression passed in using
+          this parameter.</value>
+  </data>
+  <data name="PrintUsageResetDescription" xml:space="preserve">
+    <value>   -rst : Reset the console to its default colours.</value>
+  </data>
+  <data name="PrintUsageValueDescription" xml:space="preserve">
+    <value>   -val : String value provided to match the regular expression against (-rx) or to search for a
+          Json path (-json) for extracting a property.</value>
+  </data>
+  <data name="RegularExpressionParameter" xml:space="preserve">
+    <value>-rx</value>
+  </data>
+  <data name="ResetParameter" xml:space="preserve">
+    <value>-rst</value>
+  </data>
+  <data name="ValueParameter" xml:space="preserve">
+    <value>-val</value>
+  </data>
+  <data name="PrintUsageXmlDescription" xml:space="preserve">
+    <value>   -xml : Extract an XML value using the provided XML path. The source to use for parsing
+          is either taken from the passed in value (-val) or from a file (-file). Alternatively, the
+          data can be piped into the application through standard input.</value>
+  </data>
+  <data name="XmlParameter" xml:space="preserve">
+    <value>-xml</value>
+  </data>
+  <data name="FakeNameSpaceParameter" xml:space="preserve">
+    <value>-fns</value>
+  </data>
+</root>
