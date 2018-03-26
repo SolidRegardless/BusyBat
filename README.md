@@ -40,3 +40,26 @@ to busybox.
      -xml : Extract an XML value using the provided XML path. The source to use for parsing  
             is either taken from the passed in value (-val) or from a file (-file). Alternatively, the  
             data can be piped into the application through standard input.
+
+The following examples show how you can use BusyBat:
+
+Standard input regular expression searches:
+
+    type example.lst | busybat.exe -fg red -bg blue -rx "^(?<cap>[0-9]+findme.*)$" -grp cap
+    
+File-based regular expression searches:
+
+    busybat.exe -rx "^(?<cap>[0-9]+findme.*)$" -grp cap -file example.lst
+    
+Inline value-based regular expression searches:
+
+    busybat.exe -rx "^(?<cap>[0-9]+findme.*)$" -grp cap -val "%ENVVAR%"
+      
+Print text using different colours:
+
+    echo %ENVVAR% | busybat.exe -fg red -pr
+      
+XML and JSON queries can also use standard input, value parameter or file-based input:
+
+    type example.xml | busybat.exe -xml "//book/author"
+    type example.json | busybat.exe -json "$.book[?(@.author=='Sam Smith')].price.min()"
